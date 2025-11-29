@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/biotec-portas-abertas//_next/:path+",
+        "destination": "/biotec-portas-abertas/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
