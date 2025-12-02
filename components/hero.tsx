@@ -21,7 +21,7 @@ export function Hero() {
 
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-balance">
-              Biotec de Portas Abertas
+              5º Biotec de Portas Abertas
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 text-balance">
               Biotecnologia e Sustentabilidade
