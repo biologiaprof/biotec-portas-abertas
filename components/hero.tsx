@@ -1,4 +1,5 @@
 import Image from "next/image"
+import logo from "../public/logo.png";
 
 export function Hero() {
   return (
@@ -9,7 +10,7 @@ export function Hero() {
         <div className="flex flex-col items-center text-center gap-8">
           <div className="mb-4">
             <Image
-              src="/logo.png"
+              src={logo}
               alt="Biotec de Portas Abertas"
               width={300}
               height={300}
