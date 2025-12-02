@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build && next export",
+    "postexport": "sed -i '' 's|/_next|/biotec-portas-abertas/_next|g' out/**/*.html",    "start": "next start",
     "export": "next export",
     "lint": "eslint ."
   },
