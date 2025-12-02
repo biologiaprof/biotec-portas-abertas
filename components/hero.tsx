@@ -9,7 +9,7 @@ export function Hero() {
         <div className="flex flex-col items-center text-center gap-8">
           <div className="mb-4">
             <Image
-              src="/biotec-portas-abertas/logo.png"
+              src="/logo.png"
               alt="Biotec de Portas Abertas"
               width={300}
               height={300}
